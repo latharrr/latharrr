@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular','Consolas','Liberation Mono','Menlo',monospace" width="830px" height="440px" font-size="14px">
+<style>
+.key {fill: #953800;}
+.value {fill: #0550ae;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #8b949e;}
+.dim {fill: #d0d7de;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="830" height="440" fill="#ffffff" rx="10" stroke="#d0d7de" stroke-width="1"/>
+<rect width="830" height="36" fill="#f6f8fa" rx="10"/>
+<rect y="24" width="830" height="12" fill="#f6f8fa"/>
+<line x1="0" y1="36" x2="830" y2="36" stroke="#d0d7de" stroke-width="1"/>
+<circle cx="20" cy="18" r="6" fill="#f85149" opacity="0.6"/>
+<circle cx="40" cy="18" r="6" fill="#f0883e" opacity="0.6"/>
+<circle cx="60" cy="18" r="6" fill="#3fb950" opacity="0.6"/>
+<text x="415" y="23" fill="#656d76" text-anchor="middle" font-size="12px">deepanshu@lathar:~</text>
+<text x="24" y="56" fill="#1f2328">
+<tspan x="24" y="56" fill="#0550ae">deepanshu@lathar</tspan><tspan class="dim"> ──────────────────────────────────────────────────────────</tspan>
+<tspan x="24" y="76" class="cc">  </tspan><tspan class="key">Host</tspan><tspan class="cc"> ...................... </tspan><tspan class="value">Picapool</tspan>
+<tspan x="24" y="96" class="cc">  </tspan><tspan class="key">Kernel</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Founder's Office</tspan>
+<tspan x="24" y="116" class="cc">  </tspan><tspan class="key">Role</tspan><tspan class="cc"> ...................... </tspan><tspan class="value">Product · Engineering · Operations</tspan>
+<tspan x="24" y="136" class="cc">  </tspan><tspan class="key">Location</tspan><tspan class="cc"> .................. </tspan><tspan class="value">Delhi, India</tspan>
+<tspan x="24" y="156" class="cc">  </tspan><tspan class="key">Uptime</tspan><tspan class="cc" id="age_data_dots"> .................... </tspan><tspan class="value" id="age_data">21 years, 0 months, 24 days</tspan>
+<tspan x="24" y="176"> </tspan>
+<tspan x="24" y="196" class="cc">  </tspan><tspan class="key">Languages</tspan><tspan class="cc"> ................. </tspan><tspan class="value">JS · TS · Python · C++ · SQL · Liquid</tspan>
+<tspan x="24" y="216" class="cc">  </tspan><tspan class="key">Automation</tspan><tspan class="cc"> ................ </tspan><tspan class="value">n8n · AI Workflows · WhatsApp API</tspan>
+<tspan x="24" y="236" class="cc">  </tspan><tspan class="key">Stack</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">React · Next.js · Node · PostgreSQL</tspan>
+<tspan x="24" y="256"> </tspan>
+<tspan x="24" y="276" class="cc">  </tspan><tspan class="key">Website</tspan><tspan class="cc"> ................... </tspan><tspan class="value">deepanshulathar.dev</tspan>
+<tspan x="24" y="296" class="cc">  </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc"> .................. </tspan><tspan class="value">deepanshulathar</tspan>
+<tspan x="24" y="316" class="cc">  </tspan><tspan class="key">GitHub</tspan><tspan class="cc"> .................... </tspan><tspan class="value">latharrr</tspan>
+<tspan x="24" y="336"> </tspan>
+<tspan x="24" y="356" class="dim">── </tspan><tspan class="cc">stats</tspan><tspan class="dim"> ──────────────────────────────────────────────────────</tspan>
+<tspan x="24" y="376" class="cc">  </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">15</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">15</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">8</tspan>
+<tspan x="24" y="396" class="cc">  </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan><tspan class="value" id="commit_data">412</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ......... </tspan><tspan class="value" id="follower_data">1</tspan>
+<tspan x="24" y="416" class="cc">  </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc" id="loc_data_dots"> ... </tspan><tspan class="value" id="loc_data">10,000</tspan> ( <tspan class="addColor" id="loc_add">12,345</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots">. </tspan><tspan class="delColor" id="loc_del">2,345</tspan><tspan class="delColor">--</tspan> )
+</text>
+</svg>
