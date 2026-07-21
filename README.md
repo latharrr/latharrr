@@ -38,8 +38,8 @@ Currently in the **Founder's Office at [Picapool](https://picapool.com)**, worki
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=latharrr&show_icons=true&hide_border=true&bg_color=0d1117&text_color=c9d1d9&icon_color=ffa657&title_color=ffa657">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=latharrr&show_icons=true&hide_border=true&bg_color=ffffff&text_color=1f2328&icon_color=953800&title_color=953800" height="170">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=latharrr&show_icons=true&hide_border=true&bg_color=0d1117&text_color=c9d1d9&icon_color=ffa657&title_color=ffa657">
+    <img alt="GitHub Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=latharrr&show_icons=true&hide_border=true&bg_color=ffffff&text_color=1f2328&icon_color=953800&title_color=953800" height="170">
   </picture>
   &nbsp;
   <picture>
