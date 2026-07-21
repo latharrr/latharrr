@@ -57,7 +57,7 @@ Currently in the **Founder's Office at [Picapool](https://picapool.com)**, worki
 
 <div align="center">
 
-[deepanshulathar.dev](https://deepanshulathar.dev) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [deepanshulathar@gmail.com](mailto:deepanshulathar@gmail.com)
+**[Website](https://deepanshulathar.dev)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/deepanshulathar/)** &nbsp;·&nbsp; **[Email](mailto:deepanshulathar@gmail.com)**
 
 </div>
 
