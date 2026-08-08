@@ -25,7 +25,7 @@ text, tspan {white-space: pre;}
 <tspan x="24" y="96" class="cc">  </tspan><tspan class="key">Kernel</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Founder's Office</tspan>
 <tspan x="24" y="116" class="cc">  </tspan><tspan class="key">Role</tspan><tspan class="cc"> ...................... </tspan><tspan class="value">Product · Engineering · Operations</tspan>
 <tspan x="24" y="136" class="cc">  </tspan><tspan class="key">Location</tspan><tspan class="cc"> .................. </tspan><tspan class="value">Delhi, India</tspan>
-<tspan x="24" y="156" class="cc">  </tspan><tspan class="key">Uptime</tspan><tspan class="cc" id="age_data_dots"> .................... </tspan><tspan class="value" id="age_data">21 years, 1 month, 11 days</tspan>
+<tspan x="24" y="156" class="cc">  </tspan><tspan class="key">Uptime</tspan><tspan class="cc" id="age_data_dots"> .................... </tspan><tspan class="value" id="age_data">21 years, 1 month, 12 days</tspan>
 <tspan x="24" y="176"> </tspan>
 <tspan x="24" y="196" class="cc">  </tspan><tspan class="key">Languages</tspan><tspan class="cc"> ................. </tspan><tspan class="value">JS · TS · Python · C++ · SQL · Liquid</tspan>
 <tspan x="24" y="216" class="cc">  </tspan><tspan class="key">Automation</tspan><tspan class="cc"> ................ </tspan><tspan class="value">n8n · AI Workflows · WhatsApp API</tspan>
