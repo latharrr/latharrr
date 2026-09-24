@@ -186,7 +186,7 @@ def spans(row):
                    for text, cls in row)
 
 
-def render(theme, rows, art, split, today):
+def render(theme, stats, rows, art, split, today):
     t = THEMES[theme]
     char_w = FONT * 0.6
     art_w = max(len(line) for line in art) * ART_FONT * 0.6
@@ -216,8 +216,9 @@ def render(theme, rows, art, split, today):
         lx += 12 + (len(label) + 2) * 12 * 0.6
 
     updated = today.strftime('%-d %b %Y')
-    summary = (f'Deepanshu Lathar, full-stack and AI engineer. {stats_line(rows)} '
-               f'Updated {updated}.')
+    summary = (f"Deepanshu Lathar, full-stack and AI engineer. {stats['contributions']:,} contributions, "
+               f"{stats['commits']:,} commits, {stats['repos']} repositories and {stats['merged_prs']} merged "
+               f"pull requests on GitHub. Updated {updated}.")
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}" role="img" aria-labelledby="title desc" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
 <title id="title">deepanshu@lathar</title>
@@ -266,12 +267,6 @@ text, tspan {{ white-space: pre; }}
 '''
 
 
-def stats_line(rows):
-    """The github rows as plain sentences, for the SVG's accessible description."""
-    lines = [''.join(text for text, _ in row) for row in rows[-2:]]
-    return ' '.join(' '.join(line.replace('│', ';').split()) + '.' for line in lines)
-
-
 def main():
     if not TOKEN:
         sys.exit('Set ACCESS_TOKEN (or GITHUB_TOKEN) to a token that can read your GitHub profile.')
@@ -282,7 +277,7 @@ def main():
     split = language_split(stats['languages'])
     art = (ROOT / 'art' / 'portrait.txt').read_text().rstrip('\n').split('\n')
     for theme in THEMES:
-        (ROOT / f'{theme}_mode.svg').write_text(render(theme, rows, art, split, today), encoding='utf-8')
+        (ROOT / f'{theme}_mode.svg').write_text(render(theme, stats, rows, art, split, today), encoding='utf-8')
     print(f"{USER}: {stats['contributions']:,} contributions, {stats['commits']:,} commits, "
           f"{stats['repos']} repos, {stats['merged_prs']} merged PRs, "
           f"top language {split[0][0] if split else 'n/a'} ({time.perf_counter() - started:.1f}s)")
