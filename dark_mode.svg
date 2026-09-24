@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="512" viewBox="0 0 900 512" role="img" aria-labelledby="title desc" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
 <title id="title">deepanshu@lathar</title>
-<desc id="desc">Deepanshu Lathar, full-stack and AI engineer. Contributions . 836 ; Commits ..... 694. Repositories .. 53 ; Merged PRs .. 30. Updated 24 Sep 2026.</desc>
+<desc id="desc">Deepanshu Lathar, full-stack and AI engineer. Contributions . 837 ; Commits ..... 695. Repositories .. 53 ; Merged PRs .. 30. Updated 24 Sep 2026.</desc>
 <style>
 text, tspan { white-space: pre; }
 .body { font-size: 14px; fill: #e6edf3; }
@@ -92,10 +92,10 @@ text, tspan { white-space: pre; }
 <tspan x="349.6" y="326.0"><tspan class="key">Open to</tspan><tspan class="faint"> ....... </tspan><tspan class="value">Summer 2027 internships</tspan></tspan>
 <tspan x="349.6" y="346.0"><tspan class="key">Website</tspan><tspan class="faint"> ....... </tspan><tspan class="value">deepanshulathar.com</tspan></tspan>
 <tspan x="349.6" y="386.0"><tspan class="dim">── github </tspan><tspan class="rule">────────────────────────────────────────────────────</tspan></tspan>
-<tspan x="349.6" y="406.0"><tspan class="key">Contributions</tspan><tspan class="faint"> . </tspan><tspan class="value">836</tspan>         <tspan class="rule">│ </tspan><tspan class="key">Commits</tspan><tspan class="faint"> ..... </tspan><tspan class="value">694</tspan></tspan>
+<tspan x="349.6" y="406.0"><tspan class="key">Contributions</tspan><tspan class="faint"> . </tspan><tspan class="value">837</tspan>         <tspan class="rule">│ </tspan><tspan class="key">Commits</tspan><tspan class="faint"> ..... </tspan><tspan class="value">695</tspan></tspan>
 <tspan x="349.6" y="426.0"><tspan class="key">Repositories</tspan><tspan class="faint"> .. </tspan><tspan class="value">53</tspan>          <tspan class="rule">│ </tspan><tspan class="key">Merged PRs</tspan><tspan class="faint"> .. </tspan><tspan class="value">30</tspan></tspan>
 </text>
 <rect x="349.6" y="452" width="520.8" height="8" rx="4" fill="#21262d"/>
-<g clip-path="url(#track)"><rect x="349.6" y="452" width="375.6" height="8" fill="#3178c6"/><rect x="724.7" y="452" width="110.6" height="8" fill="#f1e05a"/><rect x="834.8" y="452" width="25.9" height="8" fill="#3572A5"/><rect x="860.2" y="452" width="9.1" height="8" fill="#336790"/></g>
+<g clip-path="url(#track)"><rect x="349.6" y="452" width="375.7" height="8" fill="#3178c6"/><rect x="724.8" y="452" width="110.6" height="8" fill="#f1e05a"/><rect x="834.9" y="452" width="25.8" height="8" fill="#3572A5"/><rect x="860.2" y="452" width="9.1" height="8" fill="#336790"/></g>
 <circle cx="353.6" cy="476.0" r="4" fill="#3178c6"/><text x="361.6" y="480.0" class="legend">TypeScript 72%</text><circle cx="480.8" cy="476.0" r="4" fill="#f1e05a"/><text x="488.8" y="480.0" class="legend">JavaScript 21%</text><circle cx="608.0" cy="476.0" r="4" fill="#3572A5"/><text x="616.0" y="480.0" class="legend">Python 5%</text><circle cx="699.2" cy="476.0" r="4" fill="#336790"/><text x="707.2" y="480.0" class="legend">PLpgSQL 2%</text>
 </svg>
