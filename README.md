@@ -12,7 +12,7 @@
 I'm a **full-stack & AI engineer** and a B.Tech CSE student at Lovely Professional University (2024–2028). I build attribution systems, document forensics and internal tooling, and I learn fastest in early-stage startups, where shipping well means understanding product, distribution and engineering at once.
 
 - **Now:** Founder's Office at [PicaPool](https://picapool.com), building LangGraph agents, internal tools, attribution and analytics infrastructure, and n8n automations. Part-time with LPU's Division of Admissions.
-- **Open to:** Summer 2027 internships, freelance builds and open-source collaborations. I reply within a day at [deepanshu.lathar@gmail.com](mailto:deepanshu.lathar@gmail.com).
+- **Open to:** Summer 2027 internships, freelance builds and open-source collaborations. I reply within a day at [deepanshulathar@gmail.com](mailto:deepanshulathar@gmail.com).
 
 ### What I've shipped
 
@@ -46,7 +46,7 @@ My products ship under **[Deepanshu Labs](https://deepanshulathar.com/labs)**.
 
 <div align="center">
 
-**[deepanshulathar.com](https://deepanshulathar.com)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/deepanshulathar/)** &nbsp;·&nbsp; **[Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf)** &nbsp;·&nbsp; **[Email](mailto:deepanshu.lathar@gmail.com)**
+**[deepanshulathar.com](https://deepanshulathar.com)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/deepanshulathar/)** &nbsp;·&nbsp; **[Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf)** &nbsp;·&nbsp; **[Email](mailto:deepanshulathar@gmail.com)**
 
 <sub>The card above is rebuilt every morning from the GitHub API by <a href="today.py">today.py</a> · layout inspired by <a href="https://github.com/Andrew6rant/Andrew6rant">Andrew6rant</a></sub>
 
