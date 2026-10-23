@@ -1,3 +1,11 @@
+# The banner
+
+`art/make_banner.py` redraws the deepanshulathar.com hero (headline, sticker cards, box, sparkles) as four static SVGs: `banner-light.svg` and `banner-dark.svg` for desktop, and `banner-mobile-*.svg` for screens 640px and narrower. The cards come from the portfolio's sprite (`art/site-art.svg`), and the headline is Averia Serif Libre (`art/fonts/`, SIL Open Font License) shaped with HarfBuzz and written as paths. The background is transparent, so the dark files only change the ink colour.
+
+The banner is not rebuilt by the workflow. After changing the hero copy, the sprite or the layout numbers in the script, run:
+
+`pip install fonttools brotli uharfbuzz && python art/make_banner.py`
+
 # How the card works
 
 `today.py` draws `dark_mode.svg` and `light_mode.svg` from a template, filling in live numbers from GitHub's GraphQL API. The workflow in `.github/workflows/build.yaml` runs it every morning at 04:00 UTC, on pushes that touch the generator, and on demand from the Actions tab. It commits the SVGs only when they change. If the API fails, the script exits before writing, so the card keeps its last good numbers.
