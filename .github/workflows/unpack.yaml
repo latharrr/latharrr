@@ -1,0 +1,23 @@
+name: Unpack profile bundle
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack
+        run: |
+          tar xzf 1-bundle.tgz README.md art scripts
+          rm 1-bundle.tgz
+          git rm -q --ignore-unmatch today.py requirements.txt dark_mode.svg light_mode.svg SETUP.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md art scripts
+          git commit -m "Profile README: integrated project layout"
+          git push
