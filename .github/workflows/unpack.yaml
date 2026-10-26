@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unpack
         run: |
-          tar xzf 1-bundle.tgz README.md art scripts
-          rm 1-bundle.tgz
+          tar xzf 2-bundle.tgz README.md art scripts
+          rm 2-bundle.tgz
           git rm -q --ignore-unmatch today.py requirements.txt dark_mode.svg light_mode.svg SETUP.md
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
