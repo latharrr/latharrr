@@ -17,7 +17,6 @@ REPOS = [  # (repo, label)
     ("Proofmart.shop", "ProofMart"),
     ("gapl", "Gapl"),
     ("lpuconnect", "LpuTV"),
-    ("college-cli", "College-CLI"),
 ]
 START = "Updated daily from the GitHub API, latest commit per project."
 END = "<sub>Open to"
