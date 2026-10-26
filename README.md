@@ -1,17 +1,25 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/hero-mobile-dark.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="art/hero-dark.svg">
-  <source media="(max-width: 640px)" srcset="art/hero-mobile-light.svg">
-  <img width="100%" alt="Software that shows its work. Deepanshu Lathar, full-stack and AI engineer in Delhi, India." src="art/hero-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/hero-mobile-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/hero-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="art/still/hero-mobile-light.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="art/still/hero-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/anim/hero-mobile-dark.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="art/anim/hero-dark.gif">
+  <source media="(max-width: 640px)" srcset="art/anim/hero-mobile-light.gif">
+  <img width="100%" alt="Software that shows its work. Deepanshu Lathar, full-stack and AI engineer in Delhi, India." src="art/anim/hero-light.gif">
 </picture>
 
 [Website](https://deepanshulathar.com) · [Writing](https://deepanshulathar.com/sidequests) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf) · [Email](mailto:deepanshulathar@gmail.com)
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s1-mobile-dark.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="art/s1-dark.svg">
-  <source media="(max-width: 640px)" srcset="art/s1-mobile-light.svg">
-  <img width="100%" alt="A bank statement is scanned, one row is flagged and a FAIL stamp lands." src="art/s1-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/s1-mobile-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/s1-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="art/still/s1-mobile-light.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="art/still/s1-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/anim/s1-mobile-dark.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="art/anim/s1-dark.gif">
+  <source media="(max-width: 640px)" srcset="art/anim/s1-mobile-light.gif">
+  <img width="100%" alt="A bank statement is scanned, one row is flagged and a FAIL stamp lands." src="art/anim/s1-light.gif">
 </picture>
 
 **[ProofMart](https://proofmart.shop)** · live beta · [repo](https://github.com/latharrr/Proofmart.shop)<br>
@@ -19,10 +27,14 @@ Checks PDF bank statements by re-adding the rows. Verdicts come from fixed rules
 <sub>Illustration of the idea, not live output.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s2-mobile-dark.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="art/s2-dark.svg">
-  <source media="(max-width: 640px)" srcset="art/s2-mobile-light.svg">
-  <img width="100%" alt="Two phones each get a check mark, then a padlock opens." src="art/s2-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/s2-mobile-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/s2-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="art/still/s2-mobile-light.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="art/still/s2-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/anim/s2-mobile-dark.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="art/anim/s2-dark.gif">
+  <source media="(max-width: 640px)" srcset="art/anim/s2-mobile-light.gif">
+  <img width="100%" alt="Two phones each get a check mark, then a padlock opens." src="art/anim/s2-light.gif">
 </picture>
 
 **[LpuTV](https://lputv.vercel.app)** · live · [repo](https://github.com/latharrr/lpuconnect)<br>
@@ -30,10 +42,14 @@ Anonymous ten-minute text chat for LPU students. Extending a chat or becoming fr
 <sub>Illustration of the idea, not live output.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s3-mobile-dark.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="art/s3-dark.svg">
-  <source media="(max-width: 640px)" srcset="art/s3-mobile-light.svg">
-  <img width="100%" alt="A token hits a timeout on the primary track and is rerouted along a backup track." src="art/s3-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/s3-mobile-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/s3-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="art/still/s3-mobile-light.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="art/still/s3-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/anim/s3-mobile-dark.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="art/anim/s3-dark.gif">
+  <source media="(max-width: 640px)" srcset="art/anim/s3-mobile-light.gif">
+  <img width="100%" alt="A token hits a timeout on the primary track and is rerouted along a backup track." src="art/anim/s3-light.gif">
 </picture>
 
 **[Gapl](https://gapl.vercel.app)** · pre-launch demo · [repo](https://github.com/latharrr/gapl)<br>
@@ -41,10 +57,14 @@ Simulates a recruiter's screen of a resume against a target role, then builds a 
 <sub>Illustration of the idea, not live output.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s4-mobile-dark.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="art/s4-dark.svg">
-  <source media="(max-width: 640px)" srcset="art/s4-mobile-light.svg">
-  <img width="100%" alt="A gate rejects a note that says 10x growth and lets a note with a check mark through." src="art/s4-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/s4-mobile-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/s4-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="art/still/s4-mobile-light.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="art/still/s4-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/anim/s4-mobile-dark.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="art/anim/s4-dark.gif">
+  <source media="(max-width: 640px)" srcset="art/anim/s4-mobile-light.gif">
+  <img width="100%" alt="A gate rejects a note that says 10x growth and lets a note with a check mark through." src="art/anim/s4-light.gif">
 </picture>
 
 **[LinkedIn drafting bot](https://github.com/latharrr/linkedin-bot)** · public repo<br>
