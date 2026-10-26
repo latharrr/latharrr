@@ -71,7 +71,7 @@ Simulates a recruiter's screen of a resume against a target role, then builds a 
 A Telegram-controlled assistant for drafting and scheduling posts. A deterministic grounding gate checks drafts for claims about me that nothing backs up and holds back the ones that fail. Python.<br>
 <sub>Illustration of the idea, not live output.</sub>
 
-Also: [College-CLI](https://github.com/latharrr/college-cli) (pre-release, run from source), [Dandiya Nights](https://github.com/latharrr/dandiya-night-pp) (ran live, Navratri 2026), [Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist) (live WhatsApp receptionist).
+Also: [Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist) (live WhatsApp receptionist).
 
 <details>
 <summary><b>How each one decides</b></summary>
@@ -89,7 +89,6 @@ Updated daily from the GitHub API, latest commit per project.
 
 - `26 Oct` **linkedin-bot**: [Telegram bot review fixes: filler re-prompt, question memory, pending-interacti…](https://github.com/latharrr/linkedin-bot/commit/1ea97d6e579135af5dbd3ebb8597790f75a8001e)
 - `25 Oct` **ProofMart**: [JWKS cache: reject malformed key sets \+ regression tests for auth-sensitive pat…](https://github.com/latharrr/Proofmart.shop/commit/74c7397f1df50472f8d4c60de311c632c710a57c)
-- `25 Oct` **College-CLI**: [docs: state that college-cli is not on npm yet; run from source](https://github.com/latharrr/college-cli/commit/278468e01242182cde1d453285a96fda223c4135)
 - `25 Oct` **LpuTV**: [fix\(deps\): bump body-parser 2.3.0 to 2.4.0 \(GHSA-27r3-jxmh-p828\); lockfile only](https://github.com/latharrr/lpuconnect/commit/3aed5ce242db160c3ce875c40738c05bd63d712e)
 - `25 Oct` **Gapl**: [Merge pull request \#5 from latharrr/docs/project-status](https://github.com/latharrr/gapl/commit/90457ece37e9899c78dcdd8c63358349a0fb864b)
 
