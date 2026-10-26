@@ -1,62 +1,76 @@
-<!-- Sketchbook banner: art/banner-light.svg & art/banner-dark.svg (plus -mobile- variants), built by
-     art/make_banner.py from the portfolio's art sprite (art/site-art.svg); headlines are Averia Serif
-     Libre converted to vector paths, so no webfont loading is needed. The ledger card further down is
-     still regenerated every morning by today.py. -->
-
-<a href="https://deepanshulathar.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="https://raw.githubusercontent.com/latharrr/latharrr/main/art/banner-mobile-dark.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/latharrr/latharrr/main/art/banner-dark.svg">
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/latharrr/latharrr/main/art/banner-mobile-light.svg">
-    <img width="100%" alt="Sketchbook banner: Hi, I'm Deepanshu, a full-stack and AI engineer at PicaPool, and here's what I've built. Three hand-drawn sticker cards (Building products, Shipping AI tools, Growth + attribution) rise out of an open box." src="https://raw.githubusercontent.com/latharrr/latharrr/main/art/banner-light.svg">
-  </picture>
-</a>
-
-### Work
-
-Built, deployed and labelled honestly: real repos, running demos, and a plain note where something is still cooking.
-
-- **[ProofMart](https://proofmart.shop)** · statement forensics · `live beta` · [repo](https://github.com/latharrr/Proofmart.shop)<br>
-  Upload a PDF bank statement or invoice and get findings pinned to their place on the page, with the arithmetic that proves them.<br>
-  <sub>Next.js · TypeScript · Supabase · pdf.js · Tesseract.js</sub>
-- **[Gapl](https://gapl.vercel.app)** · the recruiter's read · `pre-launch demo` · [repo](https://github.com/latharrr/gapl)<br>
-  Simulates a recruiter's screen of your resume against a target role and company tier, then builds a week-by-week roadmap to close the gaps.<br>
-  <sub>Next.js · TypeScript · Firebase · OpenAI · Gemini · Resend</sub>
-- **[LpuTV](https://lputv.vercel.app)** · ten-minute campus chats · `live` · [repo](https://github.com/latharrr/lpuconnect)<br>
-  Anonymous chat and video for LPU students, with identities revealed only when both people opt in.<br>
-  <sub>React · Socket.IO · WebRTC · Express</sub>
-- **[Dandiya Nights](https://dandiya.picapool.tech)** · find your garba partner · `ran live, Navratri 2026` · [repo](https://github.com/latharrr/dandiya-night-pp)<br>
-  Pick your night, see who else is going and match with a partner. Numbers swap only on a mutual yes.<br>
-  <sub>Node.js · SQLite · WhatsApp + MSG91 login codes</sub>
-- **[College-CLI](https://github.com/latharrr/college-cli)** · course setup in one command · `pre-release`<br>
-  `npx college-cli lpu/cse-301` detects, plans, installs and verifies a course's dev setup on a fresh laptop.<br>
-  <sub>TypeScript · Node.js · YAML registry · GitHub Actions</sub>
-- **[Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist)** · WhatsApp AI receptionist · `live 24/7` · [try it](https://wa.me/919999602901?text=Hi%2C%20I'd%20like%20to%20book%20a%20call%20with%20Deepanshu%20this%20week.)<br>
-  Message the demo line, ask for a call, and a real Google Meet link lands in the chat while the booking reaches my calendar.<br>
-  <sub>WhatsApp · Google Calendar · Google Meet</sub>
-
-### The receipts
-
-Numbers, not adjectives. Each one traces back to a campaign, a repo or a team.
-
-- **3,000+** students reached by a two-month team campus push, using attribution and CRM tooling I built at PicaPool
-- **15+** production internal tools shipped in 8 weeks at PicaPool
-- **4,000+** visitors in Dandiya Nights' first three days
-
-### lil' sidequests
-
-- **[30 days of writing](https://deepanshulathar.com/sidequests)**: GTM, deadlocks and retention, in public.
-- **The open-source ledger**: counted live from the GitHub API every morning.
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/latharrr/latharrr/main/dark_mode.svg">
-  <img width="100%" alt="Terminal card with Deepanshu Lathar's live GitHub stats, rebuilt every morning." src="https://raw.githubusercontent.com/latharrr/latharrr/main/light_mode.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/hero-mobile-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="art/hero-dark.svg">
+  <source media="(max-width: 640px)" srcset="art/hero-mobile-light.svg">
+  <img width="100%" alt="Software that shows its work. Deepanshu Lathar, full-stack and AI engineer in Delhi, India." src="art/hero-light.svg">
 </picture>
 
-### Say hi
+[Website](https://deepanshulathar.com) · [Writing](https://deepanshulathar.com/sidequests) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf) · [Email](mailto:deepanshulathar@gmail.com)
 
-Have a role, a project, or a good argument about attribution?
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s1-mobile-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="art/s1-dark.svg">
+  <source media="(max-width: 640px)" srcset="art/s1-mobile-light.svg">
+  <img width="100%" alt="A bank statement is scanned, one row is flagged and a FAIL stamp lands." src="art/s1-light.svg">
+</picture>
 
-**[deepanshulathar.com](https://deepanshulathar.com)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/deepanshulathar/)** &nbsp;·&nbsp; **[Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf)** &nbsp;·&nbsp; **[Email](mailto:deepanshulathar@gmail.com)**
+**[ProofMart](https://proofmart.shop)** · live beta · [repo](https://github.com/latharrr/Proofmart.shop)<br>
+Checks PDF bank statements by re-adding the rows. Verdicts come from fixed rules, and each finding is pinned to a place on the page with the sum that proves it. Next.js, TypeScript, Supabase.<br>
+<sub>Illustration of the idea, not live output.</sub>
 
-<sub>Open to Summer 2027 internships · replies within a day · hand-coded with love in Delhi</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s2-mobile-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="art/s2-dark.svg">
+  <source media="(max-width: 640px)" srcset="art/s2-mobile-light.svg">
+  <img width="100%" alt="Two phones each get a check mark, then a padlock opens." src="art/s2-light.svg">
+</picture>
+
+**[LpuTV](https://lputv.vercel.app)** · live · [repo](https://github.com/latharrr/lpuconnect)<br>
+Anonymous ten-minute text chat for LPU students. Extending a chat or becoming friends needs both people to agree, and the server checks it. A test asserts message text is never written to the database. Express, Socket.IO, WebRTC, SQLite.<br>
+<sub>Illustration of the idea, not live output.</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s3-mobile-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="art/s3-dark.svg">
+  <source media="(max-width: 640px)" srcset="art/s3-mobile-light.svg">
+  <img width="100%" alt="A token hits a timeout on the primary track and is rerouted along a backup track." src="art/s3-light.svg">
+</picture>
+
+**[Gapl](https://gapl.vercel.app)** · pre-launch demo · [repo](https://github.com/latharrr/gapl)<br>
+Simulates a recruiter's screen of a resume against a target role, then builds a roadmap for the gaps. User-facing AI tasks run through one gateway that falls back to a backup model and tracks cost per call. Next.js, Firebase, Anthropic.<br>
+<sub>Illustration of the idea, not live output.</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/s4-mobile-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="art/s4-dark.svg">
+  <source media="(max-width: 640px)" srcset="art/s4-mobile-light.svg">
+  <img width="100%" alt="A gate rejects a note that says 10x growth and lets a note with a check mark through." src="art/s4-light.svg">
+</picture>
+
+**[LinkedIn drafting bot](https://github.com/latharrr/linkedin-bot)** · public repo<br>
+A Telegram-controlled assistant for drafting and scheduling posts. A deterministic grounding gate checks drafts for claims about me that nothing backs up and holds back the ones that fail. Python.<br>
+<sub>Illustration of the idea, not live output.</sub>
+
+Also: [College-CLI](https://github.com/latharrr/college-cli) (pre-release, run from source), [Dandiya Nights](https://github.com/latharrr/dandiya-night-pp) (ran live, Navratri 2026), [Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist) (live WhatsApp receptionist).
+
+<details>
+<summary><b>How each one decides</b></summary>
+
+- **ProofMart:** rules run over the page's own numbers and the verdict is picked in a fixed order: `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. A rule without enough columns reports "insufficient data". Dossier PDFs carry an Ed25519 signature, and the verification endpoint is public and needs no account.
+- **LpuTV:** the server holds each chat's consent state, so the two-sided steps (extending a chat, becoming friends) are checked there, with tests behind it.
+- **Gapl:** one gateway runs the user-facing AI tasks, tries a backup model when the primary fails and records cost per call.
+- **LinkedIn bot:** a deterministic gate checks drafts for lines lifted from my profile, repeated stories and numbers about me that nothing backs. A draft with a `[verify]` tag cannot be scheduled.
+
+</details>
+
+## Recent commits
+
+Updated daily from the GitHub API, latest commit per project.
+
+- `26 Oct` **linkedin-bot**: [Telegram bot review fixes: filler re-prompt, question memory, pending-interacti…](https://github.com/latharrr/linkedin-bot/commit/1ea97d6e579135af5dbd3ebb8597790f75a8001e)
+- `25 Oct` **ProofMart**: [JWKS cache: reject malformed key sets \+ regression tests for auth-sensitive pat…](https://github.com/latharrr/Proofmart.shop/commit/74c7397f1df50472f8d4c60de311c632c710a57c)
+- `25 Oct` **College-CLI**: [docs: state that college-cli is not on npm yet; run from source](https://github.com/latharrr/college-cli/commit/278468e01242182cde1d453285a96fda223c4135)
+- `25 Oct` **LpuTV**: [fix\(deps\): bump body-parser 2.3.0 to 2.4.0 \(GHSA-27r3-jxmh-p828\); lockfile only](https://github.com/latharrr/lpuconnect/commit/3aed5ce242db160c3ce875c40738c05bd63d712e)
+- `25 Oct` **Gapl**: [Merge pull request \#5 from latharrr/docs/project-status](https://github.com/latharrr/gapl/commit/90457ece37e9899c78dcdd8c63358349a0fb864b)
+
+<sub>Open to Summer 2027 internships</sub>
