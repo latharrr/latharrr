@@ -87,9 +87,9 @@ Also: [Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist) (
 
 Updated daily from the GitHub API, latest commit per project.
 
-- `26 Oct` **linkedin-bot**: [Telegram bot review fixes: filler re-prompt, question memory, pending-interacti…](https://github.com/latharrr/linkedin-bot/commit/1ea97d6e579135af5dbd3ebb8597790f75a8001e)
-- `25 Oct` **ProofMart**: [JWKS cache: reject malformed key sets \+ regression tests for auth-sensitive pat…](https://github.com/latharrr/Proofmart.shop/commit/74c7397f1df50472f8d4c60de311c632c710a57c)
-- `25 Oct` **LpuTV**: [fix\(deps\): bump body-parser 2.3.0 to 2.4.0 \(GHSA-27r3-jxmh-p828\); lockfile only](https://github.com/latharrr/lpuconnect/commit/3aed5ce242db160c3ce875c40738c05bd63d712e)
-- `25 Oct` **Gapl**: [Merge pull request \#5 from latharrr/docs/project-status](https://github.com/latharrr/gapl/commit/90457ece37e9899c78dcdd8c63358349a0fb864b)
+- `26 Oct` **linkedin-bot**: [docs: replace role row with scope](https://github.com/latharrr/linkedin-bot/commit/cbe742ffa6b2d4fa8a504bc00eab2345fb9c444e)
+- `26 Oct` **LpuTV**: [docs: replace role row with scope; drop solo sentence](https://github.com/latharrr/lpuconnect/commit/ea96382535ae4c21a4e6e1084bed80b6a95f2478)
+- `26 Oct` **ProofMart**: [docs: replace role row with scope](https://github.com/latharrr/Proofmart.shop/commit/289ae5f8ea008e9ea1fec30099459b3aa71c7e6e)
+- `26 Oct` **Gapl**: [docs: replace role row with scope](https://github.com/latharrr/gapl/commit/2b871b9c1428fe264b71fed52e607fecf27b15c1)
 
 <sub>Open to Summer 2027 internships</sub>
