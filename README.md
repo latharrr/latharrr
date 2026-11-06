@@ -87,7 +87,7 @@ Also: [Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist) (
 
 Updated daily from the GitHub API, latest commit per project.
 
-- `04 Nov` **Gapl**: [Merge pull request \#8 from latharrr/fix/tailor-input-and-output-validation](https://github.com/latharrr/gapl/commit/eba8a8bba61151368a0aa5e636d11765888ef79c)
+- `05 Nov` **Gapl**: [Merge pull request \#9 from latharrr/fix/cv-builder-validation](https://github.com/latharrr/gapl/commit/5c762c2018fd11ec6c4c3a55e1832b32897e1abc)
 - `26 Oct` **linkedin-bot**: [docs: replace role row with scope](https://github.com/latharrr/linkedin-bot/commit/cbe742ffa6b2d4fa8a504bc00eab2345fb9c444e)
 - `26 Oct` **LpuTV**: [docs: replace role row with scope; drop solo sentence](https://github.com/latharrr/lpuconnect/commit/ea96382535ae4c21a4e6e1084bed80b6a95f2478)
 - `26 Oct` **ProofMart**: [docs: replace role row with scope](https://github.com/latharrr/Proofmart.shop/commit/289ae5f8ea008e9ea1fec30099459b3aa71c7e6e)
