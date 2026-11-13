@@ -87,7 +87,7 @@ Also: [Deepanshu Labs](https://deepanshulathar.com/labs/whatsapp-receptionist) (
 
 Updated daily from the GitHub API, latest commit per project.
 
-- `10 Nov` **Gapl**: [Merge pull request \#11 from latharrr/test/analysis-validation](https://github.com/latharrr/gapl/commit/6836f014a49f2caddcaf5b0a2146f373f2321afe)
+- `12 Nov` **Gapl**: [Merge pull request \#12 from latharrr/fix/admin-rbac-write-routes](https://github.com/latharrr/gapl/commit/7f71a56733108be68695a86747fb843c8d824483)
 - `08 Nov` **LpuTV**: [Add a Support me link to the landing footer](https://github.com/latharrr/lpuconnect/commit/dd43130a02d10629fdd6082a65396483966c0721)
 - `26 Oct` **linkedin-bot**: [docs: replace role row with scope](https://github.com/latharrr/linkedin-bot/commit/cbe742ffa6b2d4fa8a504bc00eab2345fb9c444e)
 - `26 Oct` **ProofMart**: [docs: replace role row with scope](https://github.com/latharrr/Proofmart.shop/commit/289ae5f8ea008e9ea1fec30099459b3aa71c7e6e)
