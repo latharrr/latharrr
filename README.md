@@ -1,74 +1,76 @@
 # Deepanshu Lathar
 
-Full-stack & AI engineer at PicaPool - I build products that show their work.
+Full-stack & AI engineer at PicaPool.
+
+I build products that show their work.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="art/hero-dark.svg">
+  <img width="100%" alt="show your work. A green check mark stands where the full stop would be." src="art/hero-light.svg">
+</picture>
 
 [Website](https://deepanshulathar.com/) · [Writing](https://deepanshulathar.com/sidequests) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf) · [Email](mailto:deepanshulathar@gmail.com)
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/hero-mobile-dark.svg">
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/hero-dark.svg">
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="art/still/hero-mobile-light.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="art/still/hero-light.svg">
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/anim/hero-mobile-dark.gif">
-  <source media="(prefers-color-scheme: dark)" srcset="art/anim/hero-dark.gif">
-  <source media="(max-width: 640px)" srcset="art/anim/hero-mobile-light.gif">
-  <img width="100%" alt="Software that shows its work. Deepanshu Lathar, full-stack and AI engineer in Delhi, India." src="art/anim/hero-light.gif">
-</picture>
+Open to Summer 2027 internships.
 
-I'm a CSE student at LPU ('28), working in the Founder's Office at PicaPool. I take briefs to polished, shipped products, often by end of day - thinking from user intent and behaviour, not feature count. Open to Summer 2027 internships.
+## The proof
 
-At PicaPool I shipped 15+ internal tools over a 79-table production schema in 8 weeks, including an AST-validated LLM-SQL analytics workflow (read-only queries as a guardrail) and a Telegram RAG bot. On my own I ship end to end: live products, with tests and evaluations, not demos.
+Each project below makes one claim. Each claim comes with the check that backs it.
 
-## Stack
+### [Gapl](https://gapl.143.lat/) - [repo](https://github.com/latharrr/gapl) - live beta, about 10 early users
 
-- **AI & Product:** Claude, OpenAI, Groq, Gemini · prompt engineering · RAG · AI evaluation
-- **Frontend:** TypeScript · React · Next.js · Tailwind
-- **Backend & Data:** Python · Node.js · Firebase / Firestore · PostgreSQL · Supabase
-- **Tools:** Git · Vercel · Playwright · Vitest
+Job seekers cannot tell if a resume will pass a recruiter's screen. Gapl scores it against a job description, lists the gaps, builds a learning roadmap, and helps rewrite the CV.
 
-## Selected work
+Check: an offline harness of 44 synthetic documents (27 resumes, 17 non-resumes) caught a bug where genuine resumes mentioning invoice or receipt projects were rejected as non-resumes. After the fix it went from 41/44 to 44/44. Synthetic pipeline tests, not a claim of real-world AI accuracy. Report: [evals/EVAL_REPORT.md](https://github.com/latharrr/gapl/blob/master/evals/EVAL_REPORT.md).
 
-### [Gapl](https://gapl.143.lat/) · [repo](https://github.com/latharrr/gapl) - live beta, about 10 early users
+Built with: Next.js, TypeScript, Firebase. One AI gateway with a primary model, a backup, and cost tracked per call. I built Gapl Claude-assisted: I owned the problem, product flow, and features, and used Claude to build and iterate.
 
-Job seekers can't tell if a resume will pass a recruiter's screen. Gapl scores it against a job description, lists the gaps, builds a learning roadmap and helps rewrite the CV.
-
-Next.js, TypeScript, Firebase. One AI gateway with a primary model, a backup, and cost tracked per call. I built Gapl Claude-assisted: I owned the problem, product flow and features, and used Claude to build and iterate.
-
-**Tested, not just shipped:** an offline harness of 44 synthetic documents (27 resumes, 17 non-resumes) caught a bug where genuine resumes mentioning invoice / receipt projects were rejected as non-resumes. After the fix: **41/44 → 44/44**. Synthetic pipeline tests - not a claim of real-world AI accuracy. Report: [evals/EVAL_REPORT.md](https://github.com/latharrr/gapl/blob/master/evals/EVAL_REPORT.md).
-
-### [ProofMart](https://proofmart.shop/) · [repo](https://github.com/latharrr/Proofmart.shop) - live beta, in use at one company
+### [ProofMart](https://proofmart.shop/) - [repo](https://github.com/latharrr/Proofmart.shop) - live beta, in use at one company
 
 Bank statements lie by arithmetic, and nobody re-adds the rows. ProofMart checks a PDF statement by re-adding its own numbers, and pins each finding to the page with the sum that proves it.
 
-Next.js, TypeScript, Supabase. Verdicts from fixed rules in a fixed order - `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. Ed25519-signed dossiers, public verification with no account needed.
+Check: verdicts come from fixed rules in a fixed order - `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. A rule without enough columns reports "insufficient data". Dossiers are Ed25519-signed, and anyone can verify one with no account.
+
+Built with: Next.js, TypeScript, Supabase.
 
 <img width="100%" alt="ProofMart Evidence Rail flagging a running balance that is 1,500.00 too high on a synthetic statement" src="https://raw.githubusercontent.com/latharrr/Proofmart.shop/main/docs/images/evidence-rail.png">
 <sub>Real screenshot from ProofMart: synthetic statement generated by the repo's own test fixtures.</sub>
 
-### [LpuTV](https://lputv.vercel.app/) · [repo](https://github.com/latharrr/lpuconnect) - live
+### [LpuTV](https://lputv.vercel.app/) - [repo](https://github.com/latharrr/lpuconnect) - live
 
-Anonymous ten-minute text chat for LPU students. Extending a chat or becoming friends needs both people to agree, and the server checks it - one test asserts message text is never written to the database.
+Anonymous ten-minute text chat for LPU students. Extending a chat or becoming friends needs both people to agree, and the server checks it.
 
-Express, Socket.IO, WebRTC, SQLite.
+Check: one test asserts message text is never written to the database.
+
+Built with: Express, Socket.IO, WebRTC, SQLite.
 
 ### [LinkedIn drafting bot](https://github.com/latharrr/linkedin-bot) - public repo
 
-Drafting posts is easy; posting a claim you can't back up is the risk. This Telegram-controlled bot drafts and schedules posts, and a deterministic grounding gate holds back drafts with claims about me that nothing backs up. A draft with a `[verify]` tag cannot be scheduled.
+Drafting posts is easy. Posting a claim you cannot back up is the risk. This Telegram-controlled bot drafts and schedules posts, and a deterministic grounding gate holds back drafts with claims about me that nothing backs up.
 
-Python.
+Check: a draft with a `[verify]` tag cannot be scheduled.
+
+Built with: Python.
 
 ### [WhatsApp AI receptionist](https://deepanshulathar.com/labs/whatsapp-receptionist) - personal, single-business demo I built and run. Live.
 
-(Separate from the multi-tenant receptionist product, which is still a pilot.)
+Check: this is a personal demo, not a product launch. The multi-tenant receptionist product is still a pilot.
 
-## How each one decides
+## At PicaPool
 
-| Project | How it decides |
-| --- | --- |
-| Gapl | One gateway runs the user-facing AI tasks, tries a backup model when the primary fails, and records tokens and cost per call. |
-| ProofMart | Rules run over the page's own numbers; the verdict is picked in a fixed order - `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. A rule without enough columns reports "insufficient data". |
-| LpuTV | The server holds each chat's consent state, so the two-sided steps are checked there, with tests behind it. |
-| LinkedIn bot | A deterministic gate checks drafts for lines lifted from my profile, repeated stories and numbers about me that nothing backs. |
+I take briefs to polished, shipped products, often by end of day. I think from user intent and behaviour, not feature count.
+
+In 8 weeks I shipped 15+ internal tools over a 79-table production schema. One was an AST-validated LLM-SQL analytics workflow. Read-only queries were the guardrail. Another was a Telegram RAG bot.
+
+## Tools I reach for
+
+AI & Product: Claude, OpenAI, Groq, Gemini, prompt engineering, RAG, AI evaluation.
+
+Frontend: TypeScript, React, Next.js, Tailwind.
+
+Backend & Data: Python, Node.js, Firebase / Firestore, PostgreSQL, Supabase.
+
+Tools: Git, Vercel, Playwright, Vitest.
 
 ## Recent commits
 
