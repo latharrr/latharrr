@@ -1,9 +1,6 @@
 # Deepanshu Lathar
-
 Full-stack & AI engineer at PicaPool - I build products that show their work.
-
-[Website](https://deepanshulathar.com) · [Writing](https://deepanshulathar.com/sidequests) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf) · [Email](mailto:deepanshulathar@gmail.com)
-
+[Website](https://deepanshulathar.com/) · [Writing](https://deepanshulathar.com/sidequests) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf) · [Email](mailto:deepanshulathar@gmail.com)
 <picture>
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 640px)" srcset="art/still/hero-mobile-dark.svg">
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="art/still/hero-dark.svg">
@@ -14,47 +11,38 @@ Full-stack & AI engineer at PicaPool - I build products that show their work.
   <source media="(max-width: 640px)" srcset="art/anim/hero-mobile-light.gif">
   <img width="100%" alt="Software that shows its work. Deepanshu Lathar, full-stack and AI engineer in Delhi, India." src="art/anim/hero-light.gif">
 </picture>
-
-I'm a CSE student at LPU ('28), working in the Founder's Office at PicaPool. There I build AI systems, internal tools and attribution infrastructure - 15+ internal tools shipped over a 79-table production schema in 8 weeks.
-
-On my own I ship end to end: live products, with tests and evaluations, not demos. I write about what I build - real bugs, real numbers, what broke and the fix.
-
+I'm a CSE student at LPU ('28), working in the Founder's Office at PicaPool - 15+ internal tools shipped over a 79-table production schema in 8 weeks. On my own I ship end to end: live products, with tests and evaluations, not demos.
+## Stack
+| AI & Product | Frontend | Backend & Data | Tools |
+| --- | --- | --- | --- |
+| Claude, OpenAI, Groq, Gemini · prompt engineering · RAG · AI evaluation | TypeScript · React · Next.js · Tailwind | Python · Node.js · Firebase / Firestore · PostgreSQL · Supabase | Git · Vercel · Playwright · Vitest |
+[![My stack](https://skillicons.dev/icons?i=ts,py,nextjs,react,firebase,postgres,supabase,tailwind,nodejs,git,vercel&theme=light)](https://skillicons.dev)
 ## Selected work
-
-| Project | What it does | Status |
-|---|---|---|
-| **[Gapl](https://gapl.143.lat)** · [repo](https://github.com/latharrr/gapl) | Resume-to-role analysis: scores a resume against a job description, lists the gaps, builds a learning roadmap and helps rewrite the CV. | Live beta, about 10 early users |
-| **[ProofMart](https://proofmart.shop)** · [repo](https://github.com/latharrr/Proofmart.shop) | Document forensics: checks a PDF bank statement by re-adding its own rows, and pins each finding to the page with the sum that proves it. | Live beta, in use at one company |
-| **[LpuTV](https://lputv.vercel.app)** · [repo](https://github.com/latharrr/lpuconnect) | Anonymous ten-minute text chat for LPU students. Extending a chat or becoming friends needs both people to agree, and the server checks it. | Live |
-| **[LinkedIn drafting bot](https://github.com/latharrr/linkedin-bot)** | Telegram-controlled drafting and scheduling. A deterministic grounding gate holds back drafts with claims about me that nothing backs up. | Public repo |
-
-Also: [WhatsApp AI receptionist](https://deepanshulathar.com/labs/whatsapp-receptionist) - a personal, single-business demo I built and run. Live. (Separate from the multi-tenant receptionist product, which is still a pilot.)
-
+### [Gapl](https://gapl.143.lat/) · [repo](https://github.com/latharrr/gapl) - live beta, about 10 early users
+Job seekers can't tell if a resume will pass a recruiter's screen. Gapl scores it against a job description, lists the gaps, builds a learning roadmap and helps rewrite the CV.
+Next.js, TypeScript, Firebase. One AI gateway with a primary model, a backup, and cost tracked per call.
+**Tested, not just shipped:** an offline harness of 44 synthetic documents (27 resumes, 17 non-resumes) caught a bug where genuine resumes mentioning invoice or receipt projects were rejected as non-resumes. After the fix it went from 41/44 to 44/44. Synthetic pipeline tests - not a claim of real-world AI accuracy. Report: [evals/EVAL_REPORT.md](https://github.com/latharrr/gapl/blob/master/evals/EVAL_REPORT.md).
+### [ProofMart](https://proofmart.shop/) · [repo](https://github.com/latharrr/Proofmart.shop) - live beta, in use at one company
+Bank statements lie by arithmetic, and nobody re-adds the rows. ProofMart checks a PDF statement by re-adding its own numbers, and pins each finding to the page with the sum that proves it.
+Next.js, TypeScript, Supabase. Verdicts from fixed rules, Ed25519-signed dossiers, public verification with no account needed.
 <img width="100%" alt="ProofMart Evidence Rail flagging a running balance that is 1,500.00 too high on a synthetic statement" src="https://raw.githubusercontent.com/latharrr/Proofmart.shop/main/docs/images/evidence-rail.png">
 <sub>Real screenshot from ProofMart: synthetic statement generated by the repo's own test fixtures.</sub>
-
-## How I test what I ship
-
-**Gapl - an offline evaluation harness, not a vibes check.** 44 synthetic documents (27 resumes, 17 non-resumes) caught a bug where genuine resumes mentioning invoice or receipt projects were rejected as non-resumes. After the upload-gate fix the harness went from 41/44 to 44/44. These are synthetic pipeline tests, not a claim of real-world AI accuracy. Report: [evals/EVAL_REPORT.md](https://github.com/latharrr/gapl/blob/master/evals/EVAL_REPORT.md).
-
-The same instinct runs through the rest:
-
-- **ProofMart:** verdicts come from fixed rules, picked in a fixed order - `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. A rule without enough columns reports "insufficient data". Dossier PDFs carry an Ed25519 signature, and the verification endpoint is public and needs no account.
-- **LpuTV:** the server holds each chat's consent state, so the two-sided steps are checked there, with tests behind it. One test asserts message text is never written to the database.
-- **Gapl:** one AI gateway runs the user-facing AI tasks, tries a backup model when the primary fails, and records tokens and cost per call.
-- **LinkedIn bot:** a draft with a `[verify]` tag cannot be scheduled.
-
-## Stack
-
-TypeScript · Python · Next.js · React · Firebase / Firestore · PostgreSQL · Supabase · Tailwind · Node.js
-
+### [LpuTV](https://lputv.vercel.app/) · [repo](https://github.com/latharrr/lpuconnect) - live
+Anonymous ten-minute text chat for LPU students. Extending a chat or becoming friends needs both people to agree, and the server checks it - one test asserts message text is never written to the database.
+Express, Socket.IO, WebRTC, SQLite.
+### [LinkedIn drafting bot](https://github.com/latharrr/linkedin-bot) - public repo
+Drafting posts is easy; posting a claim you can't back up is the risk. This Telegram-controlled bot drafts and schedules posts, and a deterministic grounding gate holds back drafts with claims about me that nothing backs up. A draft with a `[verify]` tag cannot be scheduled.
+Python.
+Also: [WhatsApp AI receptionist](https://deepanshulathar.com/labs/whatsapp-receptionist) - a personal, single-business demo I built and run. Live. (Separate from the multi-tenant receptionist product, which is still a pilot.)
+## How each one decides
+- **Gapl:** one gateway runs the user-facing AI tasks, tries a backup model when the primary fails, and records tokens and cost per call.
+- **ProofMart:** rules run over the page's own numbers and the verdict is picked in a fixed order - `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. A rule without enough columns reports "insufficient data".
+- **LpuTV:** the server holds each chat's consent state, so the two-sided steps are checked there, with tests behind it.
+- **LinkedIn bot:** a deterministic gate checks drafts for lines lifted from my profile, repeated stories and numbers about me that nothing backs.
 ## Recent commits
-
 Updated daily from the GitHub API, latest commit per project.
-
 - `13 Nov` **Gapl**: [Fix upload gate false-rejecting billing-domain resumes; add offline eval harness](https://github.com/latharrr/gapl/commit/381b395740ce3e7556ed045cb455b785c26e05fe)
 - `13 Nov` **linkedin-bot**: [Document safe setup, paused deployment and restore workflow](https://github.com/latharrr/linkedin-bot/commit/01f5bb9bac5790becfb37a1db536a0beb67df472)
 - `08 Nov` **LpuTV**: [Add a Support me link to the landing footer](https://github.com/latharrr/lpuconnect/commit/dd43130a02d10629fdd6082a65396483966c0721)
 - `26 Oct` **ProofMart**: [docs: replace role row with scope](https://github.com/latharrr/Proofmart.shop/commit/289ae5f8ea008e9ea1fec30099459b3aa71c7e6e)
-
 <sub>Open to Summer 2027 internships</sub>
