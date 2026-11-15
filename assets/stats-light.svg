@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="15+ internal tools in 8 weeks. 3,000+ students reached. 640 signups in 5 days. 100K+ monthly views.">
+<style>.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="1199" height="179" rx="16" fill="#FAFAF7" stroke="#E8E8E3"/>
+<g transform="translate(40.0,0)">
+  <text y="88" class="sans" font-size="54" font-weight="700" letter-spacing="-2" fill="#111113">15<tspan fill="#E8480F">+</tspan></text>
+  <text y="120" class="sans" font-size="16" fill="#6B6B70">internal production tools</text>
+  <text y="142" class="sans" font-size="16" fill="#6B6B70">shipped in 8 weeks</text>
+</g><line x1="300.0" y1="28" x2="300.0" y2="152" stroke="#E8E8E3"/><g transform="translate(340.0,0)">
+  <text y="88" class="sans" font-size="54" font-weight="700" letter-spacing="-2" fill="#111113">3,000<tspan fill="#E8480F">+</tspan></text>
+  <text y="120" class="sans" font-size="16" fill="#6B6B70">students reached by a campaign</text>
+  <text y="142" class="sans" font-size="16" fill="#6B6B70">I built attribution for</text>
+</g><line x1="600.0" y1="28" x2="600.0" y2="152" stroke="#E8E8E3"/><g transform="translate(640.0,0)">
+  <text y="88" class="sans" font-size="54" font-weight="700" letter-spacing="-2" fill="#111113">640</text>
+  <text y="120" class="sans" font-size="16" fill="#6B6B70">signups in 5 days</text>
+  <text y="142" class="sans" font-size="16" fill="#6B6B70">on an event app I owned</text>
+</g><line x1="900.0" y1="28" x2="900.0" y2="152" stroke="#E8E8E3"/><g transform="translate(940.0,0)">
+  <text y="88" class="sans" font-size="54" font-weight="700" letter-spacing="-2" fill="#111113">100K<tspan fill="#E8480F">+</tspan></text>
+  <text y="120" class="sans" font-size="16" fill="#6B6B70">monthly views on a</text>
+  <text y="142" class="sans" font-size="16" fill="#6B6B70">pre-launch channel I ran</text>
+</g>
+</svg>

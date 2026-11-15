@@ -1,151 +1,128 @@
-`markdown
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Deepanshu Lathar. Founder's office operator who ships the product too." src="assets/header-light.svg" width="100%">
+</picture>
 
-<img width="100%" alt="Deepanshu Lathar working across product analytics, AI, document verification, real-time chat and campus events" src="assets/hero-banner.webp">
+<p align="center">
+  <a href="https://deepanshulathar.com"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://cv.143.lat"><b>CV</b></a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/deepanshulathar"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:deepanshu@143.lat"><b>deepanshu@143.lat</b></a>
+</p>
 
-# Deepanshu Lathar
+> **30-second version.** I work in founders' offices and write the code myself. I've shipped 15+ internal tools in 8 weeks, built attribution for a 3,000+ student campaign, and run three live products end to end. Looking for an **AI PM / product internship, on-site in Bengaluru, Jan to Jun 2027.**
 
-### Full-stack & AI engineer · Founder's Office at PicaPool
+<br>
 
-**I take B2C products from idea to deployment — I scope what matters from user behaviour, build the AI workflow hands-on, and measure what ships through funnels, attribution and cohort retention.**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="15+ internal tools in 8 weeks. 3,000+ students reached. 640 signups in 5 days. 100K+ monthly views." src="assets/stats-light.svg" width="100%">
+</picture>
 
-Founder's Office Intern at PicaPool, Delhi · B.Tech, Computer Science & Engineering, Lovely Professional University (2024–2028)
+<br><br>
 
-[Website](https://deepanshulathar.com/) · [CV](https://cv.143.lat/) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Résumé](https://deepanshulathar.com/Deepanshu-Lathar-Resume.pdf) · [Email](mailto:deepanshulathar@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s01-dark.svg">
+  <img alt="01 / Shipped" src="assets/s01-light.svg" width="100%">
+</picture>
 
-**Available full-time, on-site in Bengaluru for Jan–Jun 2027**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</div>
+### [Gapl](https://gapl.143.lat) &nbsp;<sub>[`repo`](https://github.com/latharrr/gapl)</sub>
+**AI resume intelligence SaaS.** ATS scoring, resume parsing and a recruiter-verdict simulator.
 
----
+- LLM gateway with provider fallback and output validation
+- 44-document eval harness caught and fixed a false-rejection bug
+- Attribution from email open to paid conversion, HMAC-verified billing, D1/D7 retention crons
 
-## Skills — what I work with
+<sub>`Next.js` `TypeScript` `Firebase` `Razorpay` · live beta, 10+ testers</sub>
 
-<div align="center">
+</td>
+<td width="50%" valign="top">
 
-### Languages & core tech
+### [ProofMart](https://proofmart.shop) &nbsp;<sub>[`repo`](https://github.com/latharrr/Proofmart.shop)</sub>
+**Document forensics and verification API.** Upload a document, get an auditable verdict.
 
-<img alt="Skill bubbles: TypeScript, JavaScript, Python, React, Next.js, Node.js, FastAPI, PostgreSQL, Supabase, Firebase, Tailwind CSS, HTML, CSS" src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,postgres,supabase,firebase,tailwind,html,css">
+- Every finding maps to page coordinates, so results can be checked
+- Public API, Node CLI, Ed25519-signed dossiers, HMAC webhooks
+- Row-level security; 15 Vitest suites and 4 Playwright E2E specs
 
-### Shipping & quality
+<sub>`Next.js` `TypeScript` `Supabase` `OCR`</sub>
 
-<img alt="Skill bubbles: Vercel, Docker, Git, GitHub" src="https://skillicons.dev/icons?i=vercel,docker,git,github">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### AI, product & the rest of the stack
+### [LPU Connect](https://tv.143.lat) &nbsp;<sub>[`repo`](https://github.com/latharrr/lpuconnect)</sub>
+**Real-time anonymous campus chat and video.** Matchmaking into timed sessions, live presence.
 
-<img alt="Claude" src="https://img.shields.io/badge/Claude-191919?style=for-the-badge">
-<img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge">
-<img alt="Groq" src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge">
-<img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge">
-<img alt="Prompt engineering" src="https://img.shields.io/badge/Prompt_Engineering-5B4DFF?style=for-the-badge">
-<img alt="RAG · pgvector" src="https://img.shields.io/badge/RAG_%C2%B7_pgvector-336791?style=for-the-badge">
-<img alt="n8n automation" src="https://img.shields.io/badge/n8n_Automation-EA4B71?style=for-the-badge">
-<img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge">
-<img alt="Cursor" src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge">
-<img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=for-the-badge">
-<img alt="Socket.IO" src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge">
-<img alt="WebRTC" src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge">
-<img alt="Razorpay" src="https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge">
-<img alt="OCR" src="https://img.shields.io/badge/OCR-2F855A?style=for-the-badge">
-<img alt="Vitest" src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge">
-<img alt="Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge">
-<img alt="CI/CD" src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge">
+- Mutual-unlock friend system: no one is exposed one-sidedly
+- Hardened with rate limiting, CORS lockdown and XSS sanitisation
 
-</div>
+<sub>`React` `Node.js` `Socket.IO` `WebRTC`</sub>
 
-**In words, so nothing is hidden behind an icon:**
+</td>
+<td width="50%" valign="top">
 
-- **Product:** user research & pain-point discovery · product-opportunity identification · idea-to-deployment ownership · prioritisation · GTM strategy · funnel & cohort analysis · retention · A/B testing · attribution modelling · UX copywriting
-- **AI & LLM:** LLM APIs (OpenAI, Anthropic Claude, Groq, Gemini) · prompt engineering · multi-provider failover · RAG (pgvector, hybrid retrieval) · agent & workflow automation (n8n) · LLM-output validation · Claude Code · Cursor
-- **Programming & engineering:** TypeScript / JavaScript · Python · SQL · Next.js · React · Node.js · FastAPI · PostgreSQL · Supabase · Firebase · Vercel · Docker · CI/CD · automated testing & reliability (Vitest, Playwright)
+### LinkedIn autopilot &nbsp;<sub>[`repo`](https://github.com/latharrr/linkedin-bot)</sub>
+**Brief in on Telegram, post out on LinkedIn.** A human approves every post.
 
----
+- Researches the topic, writes 2 drafts with images, sends them back to pick from
+- Scheduled dispatcher posts the approved draft at the chosen time
 
-## Top projects
+<sub>`Python` `Claude` `Supabase` `Telegram` `LinkedIn API`</sub>
 
-### 1. Gapl — see what a recruiter sees in your resume
+</td>
+</tr>
+</table>
 
-[Live beta](https://gapl.143.lat/) · [Sample report](https://gapl.vercel.app/demo) · [Repo](https://github.com/latharrr/gapl)
+<br>
 
-<img width="100%" alt="Gapl homepage hero — a printed resume with yellow highlights on a sunlit table, beside pens and a glass of chai" src="https://gapl.vercel.app/living/img/hero.jpg">
-<sub>The hero image live on gapl.143.lat — open the live beta or the sample report to see the product itself.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s02-dark.svg">
+  <img alt="02 / Inside startups" src="assets/s02-light.svg" width="100%">
+</picture>
 
-A candidate uploads a resume and a job description, and Gapl reads it the way a recruiter at that company tier would: a readiness score, an ATS fit, the line that sank it, and a learning roadmap that ends in projects to build — then it helps rewrite the CV.
-
-- **Stack:** Next.js, TypeScript, Firebase, Razorpay, Tailwind. One LLM gateway with provider fallback and output validation powers the parsing, scoring and recruiter-verdict simulator.
-- **The proof:** a synthetic-fixture evaluation harness of 44 documents found and fixed a false-rejection bug affecting billing-domain resumes — 41/44 → **44/44**. These are synthetic pipeline tests, not a claim of real-world AI accuracy.
-- **In use:** live beta with **10+ early testers**, with HMAC-verified Razorpay billing and full email-open to paid-conversion attribution.
-
-### 2. ProofMart — bank statements, re-added
-
-[Live beta](https://proofmart.shop/) · [Repo](https://github.com/latharrr/Proofmart.shop)
-
-<img width="100%" alt="ProofMart landing page showing a sample statement with ticked and ringed balances" src="https://raw.githubusercontent.com/latharrr/Proofmart.shop/main/docs/images/home.png">
-<sub>Real screenshot from the ProofMart repo: the landing page re-foots a built-in sample statement.</sub>
-
-Bank statements lie by arithmetic, and nobody re-adds the rows. ProofMart runs an upload → classify → extract → OCR → verify pipeline over a PDF statement, re-adds its own numbers, and pins every finding to real page coordinates, so each verdict is auditable and reproducible.
-
-<img width="100%" alt="ProofMart Evidence Rail flagging a running balance that is 1,500.00 too high on a synthetic statement" src="https://raw.githubusercontent.com/latharrr/Proofmart.shop/main/docs/images/evidence-rail.png">
-<sub>Real screenshot from the ProofMart repo: the Evidence Rail on a synthetic statement generated by the repo's own test fixtures — no real data.</sub>
-
-- **Stack:** Next.js, TypeScript, Supabase, OCR. Public API and Node CLI on the same pipeline.
-- **The proof:** six deterministic markers and a fixed verdict order — `INCONCLUSIVE`, `FAIL`, `REVIEW`, `CLEAR`. No AI model sits in the verdict path, dossiers are Ed25519-signed, and anyone can verify one with no account.
-- **Testing:** 15 Vitest suites and 4 Playwright end-to-end specs.
-
-### 3. LPU Connect (LpuTV) — anonymous chat that stays anonymous
-
-[Live](https://lputv.vercel.app/) · [Repo](https://github.com/latharrr/lpuconnect)
-
-| Landing | Dashboard | A chat |
+| Where | Role | What changed because I was there |
 |---|---|---|
-| <img width="100%" alt="LpuTV landing page screenshot" src="https://raw.githubusercontent.com/latharrr/lpuconnect/main/docs/screenshots/landing.png"> | <img width="100%" alt="LpuTV dashboard screenshot" src="https://raw.githubusercontent.com/latharrr/lpuconnect/main/docs/screenshots/dashboard.png"> | <img width="100%" alt="LpuTV anonymous chat screenshot" src="https://raw.githubusercontent.com/latharrr/lpuconnect/main/docs/screenshots/chat.png"> |
-<sub>All three are real screenshots from the lpuconnect repo.</sub>
+| **PicaPool** <br><sub>Delhi · Jul 2025 to present</sub> | Founder's Office | Owned **Dandiya Nights** end to end: 640 signups and 174 matches in 5 days. Shipped 15+ internal tools in 8 weeks (CRM, WhatsApp API dashboard, merchant onboarding). Replaced download counts with deduplicated event attribution. Built a natural-language analytics assistant that only runs read-only SQL. |
+| **UniLyf** <br><sub>UK, remote · Jan to May 2026</sub> | Product & Growth, Founder's Office | Instrumented a 0-to-1 beta and found the actions tied to Day-7 retention. Turned it into the launch plan. Led a team of 6. Grew the pre-launch Instagram to 100K+ monthly views. |
+| **LPU, Student Organisations** <br><sub>Mar 2025 to present</sub> | Event → HR Coordinator | Promoted in 4 months. Coordinates 225+ student organisations; ran 30+ large campus events. |
+| **Freelance** <br><sub>Jun 2025 to Feb 2026</sub> | Web & Growth | Paid D2C work, including the [Spraykart](https://github.com/latharrr/spraykart) Shopify storefront and SEO and lead generation for an accountancy practice. |
 
-Talk to a random LPU student for ten minutes. Nobody sees who you are until you both say yes: a matchmaking engine pairs users into timed sessions, video unlocks only if both want it, and names are revealed only after a mutual friend accept — every step enforced by the server, not just the UI.
+<br>
 
-- **Stack:** React, Node.js, Socket.IO, WebRTC, SQLite.
-- **The proof:** the test suite scans the database to prove message text is never stored. The backend carries 47 tests at about 84% line coverage, and a load test ran 10,000 simulated users with zero failures.
-- **Hardened:** rate limiting, CORS lockdown and XSS sanitisation.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s03-dark.svg">
+  <img alt="03 / How I build" src="assets/s03-light.svg" width="100%">
+</picture>
 
-### 4. Dandiya Nights — PicaPool's partner-matching app
+```yaml
+start_with:   user behaviour, not a feature list
+before_launch: instrument the funnel, or it didn't happen
+ai_features:  fallback providers, validated output, an eval set
+trust:        signed outputs, verified webhooks, least-privilege queries
+done_means:   deployed, measured, and someone actually used it
+```
 
-Built at PicaPool · Consumer event web app, Delhi edition
+<br>
 
-<img width="100%" alt="Illustration of the Dandiya Nights partner-matching app — phone mockups with a profile card and a match celebration, garba dancers behind" src="assets/dandiya-nights-illustration.webp">
-<sub>Illustration, not a screenshot — Dandiya Nights was a live PicaPool product with no public screenshot, so this picture shows the idea, not the real interface.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s04-dark.svg">
+  <img alt="04 / Toolkit" src="assets/s04-light.svg" width="100%">
+</picture>
 
-For Navratri, PicaPool needed to pair people who wanted a Dandiya partner. I owned the product decisions end to end: onboarding, a swipe-pacing economy with referral bonuses, and a privacy-first cross-promotion into the PicaPool app.
+**Product** &nbsp; user research · prioritisation · GTM · funnels & cohorts · retention · A/B tests · attribution · UX copy<br>
+**AI** &nbsp; Claude · OpenAI · Gemini · Groq · RAG with pgvector · multi-provider failover · output validation · n8n<br>
+**Engineering** &nbsp; TypeScript · Python · SQL · Next.js · React · Node.js · FastAPI · Postgres · Supabase · Firebase · Docker · Vitest · Playwright
 
-- **The proof:** the activation funnel (visitor → OTP → profile) was tracked daily while live — the Delhi edition recorded **640 signups and 174 matches over 5 days**.
-- **Why it matters here:** it is the product side of the same job — growth mechanics, funnels and retention, not just code.
+<br>
 
----
-
-## Experience
-
-**Founder's Office Intern — PicaPool, Jul 2025 – Present.** Hyperlocal group-buying and discovery platform, Delhi. Shipped **15+ production internal tools in 8 weeks** — CRM with role-based access, WhatsApp Business API dashboard, campaign attribution, merchant onboarding — owning ideation through implementation. Replaced download-count reporting with an event-fingerprinting and deduplication attribution system that supported a two-month campus push reaching **3,000+ students**. Built an AI-assisted analytics workflow so founders query business data in natural language and receive daily KPI digests, with generated SQL constrained by AST validation to read-only queries.
-
-**Product & Growth Intern, Founder's Office — UniLyf, Jan 2026 – May 2026.** Pre-launch campus social platform (UK), remote. Built a demand-validation framework from 15 deeply profiled beta users, using cohort analysis to isolate the actions correlated with Day-7 retention. Led a cross-functional team of 6, and ran the pre-launch Instagram channel to 360 followers and **100K+ monthly views**.
-
-**Event Coordinator → HR Coordinator — Dept. of Student Organisations, LPU, Mar 2025 – Present.** Promoted within 4 months. Coordinate **225+ student organisations** and executed **30+ large-scale campus events** end to end.
-
-**Freelance — Web Development & Growth, Jun 2025 – Feb 2026.** Launched and managed a Shopify storefront for Spraykart LLP, ran SEO and lead generation for a D2C accountancy practice, and delivered storefronts and site builds for other clients.
-
-## Education & certificates
-
-**Lovely Professional University, Phagwara — B.Tech, Computer Science and Engineering, 2024–2028** · CGPA 7.15
-
-Young Innovator Internship Challenge, Edition 2 (Scaler School of Technology, Jun 2025) · McKinsey Forward Program (Apr 2026) · Deloitte Data Analytics Job Simulation (Sep 2025) · Summer Training in Artificial Intelligence (LPU, Aug 2026)
-
----
-
-<div align="center">
-
-**Want the checked version of something? Build with me.**
-
-[Email](mailto:deepanshulathar@gmail.com) · [LinkedIn](https://www.linkedin.com/in/deepanshulathar/) · [Website](https://deepanshulathar.com/) · [CV](https://cv.143.lat/)
-
-<sub>Available full-time, on-site in Bengaluru for Jan–Jun 2027</sub>
-
-</div>
-`
+<p align="center">
+  <sub>B.Tech CSE, Lovely Professional University, 2024 to 2028 · McKinsey Forward · Deloitte Data Analytics simulation</sub>
+  <br>
+  <sub>If something here is useful to you, <a href="mailto:deepanshu@143.lat">say hi</a>.</sub>
+</p>
