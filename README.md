@@ -21,7 +21,7 @@
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://gapl.143.lat"><img alt="Gapl landing page" src="assets/gapl.jpg" width="100%"></a>
+<a href="https://gapl.143.lat"><img alt="Gapl sample report: REJECT verdict with the reason, what caught the eye, what sank it, and readiness, ATS and recruiter-confidence scores" src="assets/gapl.jpg" width="100%"></a>
 
 **[Gapl](https://gapl.143.lat)** · AI resume review that thinks like a recruiter<br>
 <sub>`Next.js` `TypeScript` `Firebase` `Razorpay` · live beta, 10+ testers</sub>
