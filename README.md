@@ -73,7 +73,7 @@
 - Onboarding, swipe pacing, referral bonuses, cross-promo into PicaPool
 - Funnel tracked daily: visitor → OTP → profile
 
-**Proof →** company product, private repo · walkthrough on request
+**Proof →** [live closing page: 640 signups, 174 matches](https://dandiya.picapool.tech) · private repo, walkthrough on request
 
 </td>
 </tr>
