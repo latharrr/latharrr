@@ -25,6 +25,11 @@
 ! STATUS  open to AI PM / product internships · Bengaluru · on-site
 ```
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="typing-dark.svg">
+  <img alt="$ open to AI PM / product internships, Jan to Jun 2027" src="typing-light.svg" width="100%">
+</picture>
+
 <p align="center">
   <a href="https://cv.143.lat"><code>./cv</code></a> &nbsp;
   <a href="https://deepanshulathar.com"><code>./portfolio</code></a> &nbsp;
