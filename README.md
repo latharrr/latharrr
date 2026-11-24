@@ -10,7 +10,7 @@
   <a href="mailto:deepanshu@143.lat"><b>deepanshu@143.lat</b></a>
 </p>
 
-> **B.Tech CSE (LPU, 2028) who works in founders' offices and builds the product himself.** Three live products, each with tests or evals you can open below. Looking for an **AI PM / product internship, on-site in Bengaluru, Jan to Jun 2027.**
+> **B.Tech CSE (LPU, 2028). I work in founders' offices and build the product myself.** Every project below links to its tests, evals or live numbers.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s01-dark.svg">
@@ -49,7 +49,7 @@
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://tv.143.lat"><img alt="LpuTV dashboard with profile, interests, friends and settings" src="assets/lputv-dashboard.jpg" width="100%"></a>
+<a href="https://tv.143.lat"><img alt="LPU Connect dashboard with profile, interests, friends and settings" src="assets/lputv-dashboard.jpg" width="100%"></a>
 
 **[LPU Connect](https://tv.143.lat)** · anonymous campus chat and video<br>
 <sub>`React` `Node.js` `Socket.IO` `WebRTC`</sub>
@@ -84,12 +84,24 @@
   <img alt="02 / Experience" src="assets/s02-light.svg" width="100%">
 </picture>
 
-| | |
-|---|---|
-| **PicaPool** · Founder's Office <br><sub>Delhi · Jul 2025 to present</sub> | **15+ internal tools in 8 weeks** (CRM, WhatsApp API dashboard, attribution). Event-level attribution for a campaign reaching **3,000+ students**. |
-| **UniLyf** · Product & Growth <br><sub>UK, remote · Jan to May 2026</sub> | Found the actions behind Day-7 retention in a 0-to-1 beta; led a team of 6; **100K+ monthly views** pre-launch. |
-| **LPU Student Organisations** <br><sub>Mar 2025 to present</sub> | Promoted to HR Coordinator in 4 months. **225+ organisations, 30+ campus events.** |
-| **Freelance** · Web & Growth <br><sub>Jun 2025 to Feb 2026</sub> | Paid D2C work, incl. the [Spraykart](https://github.com/latharrr/spraykart) Shopify store. |
+<table>
+<tr>
+<td width="34%" valign="top"><b>PicaPool</b> · Founder's Office<br><sub>Delhi · Jul 2025 to present</sub></td>
+<td valign="top"><b>15+ internal tools in 8 weeks</b> (CRM, WhatsApp API dashboard, attribution). Event-level attribution for a campaign reaching <b>3,000+ students</b>.</td>
+</tr>
+<tr>
+<td width="34%" valign="top"><b>UniLyf</b> · Product &amp; Growth<br><sub>UK, remote · Jan to May 2026</sub></td>
+<td valign="top">Found the actions behind Day-7 retention in a 0-to-1 beta; led a team of 6; <b>100K+ monthly views</b> pre-launch.</td>
+</tr>
+<tr>
+<td width="34%" valign="top"><b>LPU Student Organisations</b><br><sub>Mar 2025 to present</sub></td>
+<td valign="top">Promoted to HR Coordinator in 4 months. <b>225+ organisations, 30+ campus events.</b></td>
+</tr>
+<tr>
+<td width="34%" valign="top"><b>Freelance</b> · Web &amp; Growth<br><sub>Jun 2025 to Feb 2026</sub></td>
+<td valign="top">Paid D2C work, incl. the <a href="https://github.com/latharrr/spraykart">Spraykart</a> Shopify store.</td>
+</tr>
+</table>
 
 <sub>Company metrics come from internal dashboards and are on my <a href="https://cv.143.lat">CV</a>; happy to walk through how each was measured.</sub>
 
